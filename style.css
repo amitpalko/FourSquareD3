@@ -1,0 +1,55 @@
+.spacer {
+  margin-top: 15px;
+}
+
+.config-form .form-control {
+  width: 75%;
+}
+
+.config-form .form-group {
+  margin-right: 4px;
+}
+
+.title .header {
+  padding-left: 300px;
+  padding-bottom: 20px;
+  color: purple;
+}
+
+.form-group {
+  color: royalblue;
+}
+
+.config-form .btn {
+  vertical-align: bottom;
+  color: royalblue;
+
+}
+
+.result-container {
+  display: flex;
+}
+
+.result-panel {
+  flex: 0 0 308px;
+}
+
+.seed-form {
+  color: royalblue;
+}
+
+#seed-submit {
+  width: 75%;
+  margin-top: 10px;
+}
+
+.link {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node {
+  fill: #000;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}

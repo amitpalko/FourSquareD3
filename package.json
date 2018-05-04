@@ -1,0 +1,27 @@
+{
+  "name": "ravelin-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -p 3000",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+..."
+  },
+
+  "homepage": "...",
+  "devDependencies": {
+    "eslint": "^3.10.0",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "dependencies": {
+    "d3": "^5.1.0",
+    "jquery": "^3.3.1",
+    "serve": "^1.4.0"
+  }
+}

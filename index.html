@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ravelin Code Test</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  <!--  <script src="https://d3js.org/d3.v3.js"></script> -->
+    <script src="lib/d3.v3.min.js"></script>
+    <script src="lib/jquery-3.1.1.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container-fluid spacer">
+      <form class="form-inline config-form">
+        <div class="title">
+          <h1 class="titel header">Ravelin Javascript Code Test</h1>
+        <div>
+
+        <div class="form-group">
+          <label for="apiKey">Foursqaure API Key</label>
+          <input type="text" class="form-control" id="apiKey">
+        </div>
+
+        <div class="form-group">
+          <label for="fsqQuery">Restaurant Name</label>
+          <input type="text" class="form-control" id="fsqQuery">
+        </div>
+
+        <button type="submit" class="btn btn-default">Find Restaurants</button>
+      </form>
+
+      <div class="result-container spacer">
+        <div class="result-panel">
+          <form class="seed-form">
+            <label for="seed">Select Starting Restaurant</label>
+            <select id="seed" class="form-control" size="15">
+            </select>
+            <button id="seed-submit" type="submit" class="btn btn-default spacer" disabled>Seed Graph</button>
+          </form>
+
+          <div id="hover-container" class="info spacer hide">
+            <strong>Venue</strong>
+            <p id="venue-name"></p>
+          </div>
+
+          <p id="stop-tip" class="info spacer hide">*Press the 'space bar' to stop searching*</p>
+        </div>
+
+        <div id="d3graph"></div>
+      </div>
+    </div>
+
+    <script src="d3graph.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
