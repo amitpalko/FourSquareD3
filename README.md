@@ -1,7 +1,3 @@
-# Ravelin Javascript Code Test
-According to the Ravelin Javascript code test, I have build a graph using d3 of
-similar restaurants in London.
-
 # Instructions:
 
 * Run yarn install
